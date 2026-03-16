@@ -5,6 +5,8 @@ import RUP from "./ADSUB/RuleUpdation";
 import WUP from "./ADSUB/WorkingDaysUp";
 import DARup from "./ADSUB/DArup";
 import HRARup from "./ADSUB/HRArup";
+import UPWORKDS from "./ADSUB/UpdateWorkingdays";
+import UPWORKDS2 from "./ADSUB/UpdateWorkingdays2";
 import RELIEFRup from "./ADSUB/RELIEFrup";
 import "./App.css";
 
@@ -21,6 +23,8 @@ function App() {
          <Route path="/darup/DA" element={<DARup />} />
         <Route path="/darup/HRA" element={<HRARup />} />
          <Route path="/darup/RELIEF" element={<RELIEFRup />} />
+         <Route path="/adwup/updatewkds" element={<UPWORKDS />} />
+          <Route path="/adwup/updatewkds/up2" element={<UPWORKDS2 />} />
       </Routes>
     </div>
   );
